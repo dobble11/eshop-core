@@ -5,9 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="client\assets\**" />
     <Compile Remove="client\src\mixins\**" />
+    <Content Remove="client\assets\**" />
     <Content Remove="client\src\mixins\**" />
+    <EmbeddedResource Remove="client\assets\**" />
     <EmbeddedResource Remove="client\src\mixins\**" />
+    <None Remove="client\assets\**" />
     <None Remove="client\src\mixins\**" />
   </ItemGroup>
 
@@ -22,7 +26,6 @@
 
   <ItemGroup>
     <Folder Include="client\assets\" />
-    <Folder Include="client\src\mixins\" />
   </ItemGroup>
 
 </Project>
